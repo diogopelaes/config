@@ -71,5 +71,12 @@
   "latex-workshop.linter.enabled": false,
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.showContextMenu": false,
-  "latex-workshop.view.pdf.hand": true // Ativa a mãozinha por padrão no PDF
+  "latex-workshop.view.pdf.hand": true, // Ativa a mãozinha por padrão no PDF
+
+  // --- PDF VIEWER (tomoki1207.pdf) ---
+  "pdf.autoRefresh.enabled": true,
+  "pdf.autoRefresh.interval": 1000,
+  "workbench.editorAssociations": {
+    "*.pdf": "pdf.viewer"
+  }
 }
