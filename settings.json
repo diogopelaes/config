@@ -60,14 +60,9 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorStyle": "line",
 
-  // --- LATEX (USANDO O VISUALIZADOR DO LATEX WORKSHOP) ---
+  // --- LATEX (VISUALIZADOR PADRÃO LATEX WORKSHOP) ---
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.latex.autoBuild.run": "never",
-  "latex-workshop.message.error.show": false,
-  "latex-workshop.message.warning.show": false,
-  "latex-workshop.message.log.show": false,
-  "latex-workshop.chktex.enabled": false,
-  "latex-workshop.linter.enabled": false,
   "latex-workshop.showContextMenu": true,
   "latex-workshop.view.pdf.hand": true
 }
