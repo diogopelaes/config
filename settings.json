@@ -45,9 +45,9 @@
   },
 
   // --- FERRAMENTAS ---
-  "editor.linkedEditing": true, // Ajuda a extensão Auto Rename Tag
+  "editor.linkedEditing": true,
   "gitlens.hovers.enabled": true,
-  "gitlens.codeLens.enabled": false, // Deixa o código mais limpo
+  "gitlens.codeLens.enabled": false,
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.codeFormatting.preset": "OTBS",
 
@@ -60,23 +60,14 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorStyle": "line",
 
-  // --- LATEX & PDF ---
+  // --- LATEX (USANDO O VISUALIZADOR DO LATEX WORKSHOP) ---
+  "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.latex.autoBuild.run": "never",
-  "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
   "latex-workshop.message.error.show": false,
   "latex-workshop.message.warning.show": false,
   "latex-workshop.message.log.show": false,
-  "latex-workshop.message.update.show": false,
   "latex-workshop.chktex.enabled": false,
   "latex-workshop.linter.enabled": false,
-  "latex-workshop.view.pdf.viewer": "tab",
-  "latex-workshop.showContextMenu": false,
-  "latex-workshop.view.pdf.hand": true, // Ativa a mãozinha por padrão no PDF
-
-  // --- PDF VIEWER (tomoki1207.pdf) ---
-  "pdf.autoRefresh.enabled": true,
-  "pdf.autoRefresh.interval": 1000,
-  "workbench.editorAssociations": {
-    "*.pdf": "pdf.viewer"
-  }
+  "latex-workshop.showContextMenu": true,
+  "latex-workshop.view.pdf.hand": true
 }

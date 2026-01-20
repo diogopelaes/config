@@ -17,7 +17,7 @@ def compile_latex_files():
         print("No .tex files found in the current directory.")
         return
 
-    extensions_to_remove = [".aux", ".log", ".synctex.gz"]
+    extensions_to_remove = [".aux", ".log"]
 
     for tex_file in tex_files:
         file_name = os.path.basename(tex_file)

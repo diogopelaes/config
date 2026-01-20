@@ -73,8 +73,7 @@ $extensionsToInstall = @(
     @{ ID = "github.vscode-pull-request-github"; Desc = "GitHub Pull Requests" },
     @{ ID = "ms-vscode.powershell"; Desc = "PowerShell" },
     @{ ID = "PKief.material-icon-theme"; Desc = "Material Icon Theme" },
-    @{ ID = "James-Yu.latex-workshop"; Desc = "LaTeX (Sintaxe e Visualização PDF)" },
-    @{ ID = "tomoki1207.pdf"; Desc = "PDF Viewer (Com botão de Atualizar)" }
+    @{ ID = "James-Yu.latex-workshop"; Desc = "LaTeX (Sintaxe e Visualização PDF)" }
 )
 
 $total = $extensionsToInstall.Count
