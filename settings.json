@@ -1,0 +1,75 @@
+{
+  // --- ESTÉTICA E INTERFACE ---
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.lineHeight": 1.6,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+
+  // --- PYTHON & BACKEND ---
+  "python.languageServer": "Default",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "ruff.importStrategy": "fromEnvironment",
+
+  // --- DJANGO ---
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/templates/**/*.html": "django-html",
+    "*.html": "django-html"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+
+  // --- FRONTEND (REACT, VITE, TAILWIND) ---
+  "editor.formatOnSave": true,
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "django-html": "html"
+  },
+
+  // --- FERRAMENTAS ---
+  "editor.linkedEditing": true, // Ajuda a extensão Auto Rename Tag
+  "gitlens.hovers.enabled": true,
+  "gitlens.codeLens.enabled": false, // Deixa o código mais limpo
+  "powershell.integratedConsole.showOnStartup": false,
+  "powershell.codeFormatting.preset": "OTBS",
+
+  // --- SISTEMA E ARQUIVOS ---
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorStyle": "line",
+
+  // --- LATEX & PDF ---
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+  "latex-workshop.message.error.show": false,
+  "latex-workshop.message.warning.show": false,
+  "latex-workshop.message.log.show": false,
+  "latex-workshop.message.update.show": false,
+  "latex-workshop.chktex.enabled": false,
+  "latex-workshop.linter.enabled": false,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.showContextMenu": false,
+  "latex-workshop.view.pdf.hand": true // Ativa a mãozinha por padrão no PDF
+}
