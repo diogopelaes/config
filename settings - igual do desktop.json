@@ -10,14 +10,20 @@
 
   // --- PYTHON & BACKEND ---
   "python.languageServer": "Default",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.ignore": [
+    "**"
+  ],
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit",
-    },
+      "source.fixAll": "never",
+      "source.organizeImports": "never"
+    }
   },
+  "ruff.lint.enable": false,
   "ruff.importStrategy": "fromEnvironment",
 
   // --- DJANGO ---
@@ -60,12 +66,13 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorStyle": "line",
   "problems.decorations.enabled": false,
-  "explorer.decorations.colors": false,
+  "explorer.decorations.colors": true,
+  "workbench.editor.decorations.colors": true,
 
   // --- LATEX (VISUALIZADOR PADRÃO LATEX WORKSHOP) ---
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.showContextMenu": true,
   "latex-workshop.view.pdf.hand": true,
-  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never"
 }
